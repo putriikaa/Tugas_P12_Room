@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tugas_P12.DayNight" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Tugas_P12" parent="Base.Theme.Tugas_P12.DayNight" />
+
+    <style name="FloatingActionButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <!-- Customize the color of the FAB -->
+        <item name="backgroundTint">@color/lavender</item>
+
+        <!-- Customize the icon tint -->
+        <item name="tint">@color/white</item>
+
+        <!-- Customize the size of the FAB -->
+        <item name="fabSize">normal</item>
+
+        <!-- Customize other attributes as needed -->
+        <!-- For example, to make it oval -->
+        <item name="shapeAppearance">@style/ShapeAppearanceOverlay.MyApp.FloatingActionButton</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.FloatingActionButton" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
